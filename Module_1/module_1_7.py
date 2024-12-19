@@ -17,7 +17,7 @@ for i in grades:
 students = list(students)
 # Отсортируем по алфавиту
 students.sort()
-# Создадим словарь и склеим в нем значения из 2 листов
+# Создадим словарь и склеим в нем значения из 2 списков
 average = dict(zip(students, grades))
 # Вывод результата
 print(average)
