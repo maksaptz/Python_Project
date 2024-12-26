@@ -4,11 +4,11 @@ def get_matrix(n, m, value):
     matrix = []
     # Внешний цикл
     for i in range(n):
-        # Добавляем пустую матрицу
+        # Добавляем пустой список
         matrix.append([])
         # Внутренний цикл
         for j in range(m):
-        # Наполняем созданную матрицу значениями
+            # Наполняем созданный список значениями
             matrix[i].append(value)
     # Возвращаем результат
     return matrix
