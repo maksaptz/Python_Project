@@ -14,7 +14,7 @@ def get_matrix(n, m, value):
     return matrix
 
 # Выводим ответы на консоль
-print(get_matrix(2,2,10 ))
-print(get_matrix(3,5,42 ))
-print(get_matrix(4,2,13 ))
-print(get_matrix(0,0,0 ))
+print(get_matrix(2,2,10))
+print(get_matrix(3,5,42))
+print(get_matrix(4,2,13))
+print(get_matrix(0,0,0))
