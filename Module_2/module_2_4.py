@@ -13,7 +13,6 @@ for i in range(len(numbers)):
         continue
     # Запускаем вложенный цикл, который будет проверять делители
     for j in range(2, num):
-        is_prime = True
         if num % j == 0:
             is_prime = False
             break
