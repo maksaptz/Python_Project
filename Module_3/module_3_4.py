@@ -23,7 +23,7 @@ def single_root_words(root_word, *other_words):
     for word in other_words:
         # Задаем условие, в случае успеха пополняем список same_words
         if root_word.lower() in word.lower() or word.lower() in root_word.lower():
-            (same_words.append(word))
+            same_words.append(word)
     # Возвращаем результат
     return same_words
 
