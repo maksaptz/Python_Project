@@ -17,7 +17,7 @@
 
 # Создаем функцию
 def single_root_words(root_word, *other_words):
-    # Создадим список для  вывода
+    # Создадим список для вывода
     same_words = []
     # С помощью цикла пройдемся по списку
     for word in other_words:
