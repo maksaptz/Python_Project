@@ -15,4 +15,6 @@ for i in range(1, n):
             result.extend([i, j])
 
 # Выводим результат в консоль
-print(n, " - ", *result, sep='')
+#print(n, " - ", *result, sep='')
+print(result)
+print(*result)
